@@ -1,0 +1,109 @@
+india = [['India me sabse jada khelana vala Game'],
+         ['Cricket me kisko God of criket kaha jada hai'],
+         ['2007 cricket world cup ke indian team ka kon captan tha'],
+         ['One day me kiske sabse jada century hai'],
+         ['2022 me IPL me kisne tropy jiti']]
+
+Ans = [['cricket'],
+       ['sachin'],
+       ['dhoni'],
+       ['virat'],
+       ['csk']]
+
+lives = 5;
+score = 0;
+level = 0;
+
+while level < 5 :
+
+    print('Level {}'.format(level+1))
+
+    print('Write a correct answer')
+    
+
+    for c in india[level]:
+
+        print('{}\t'.format(c),end='');
+
+    print()
+    
+    wordCount = 0;
+
+    watch = False;
+
+    word = '';
+
+    oldWord = '';
+    
+    while wordCount == 0 or wordCount < 1:
+
+        match = False;       
+
+        word = input('Inter Your Ans: ')
+
+
+        if not(word.lower() == oldWord.lower()):
+
+            for w in Ans[level]:
+
+                if(word.lower() == w):
+
+                    wordCount += 1
+
+                    score += 1
+
+                    oldWord = word
+
+                    match = True
+
+                    break
+
+        if not match:
+
+            print('Wrong Guess')
+
+            lives -= 1
+            
+        if lives == 0:
+
+            print('Game Over!! Better Luck Next Time!!')
+
+            print('Your score is {}'.format(score))
+
+            break
+        
+    wordCount = 0
+
+    match = False
+
+    word = ''
+        
+    if lives == 0:
+
+        break
+
+    if level == 4:
+
+        print('Thanks for playing the game!!!')
+
+        print('Your score is {}'.format(score))
+
+        level += 1
+
+    else:
+
+        choice = input('Do you want to continue to next level? (y/n) ')
+
+        if(choice.lower()[0] == 'y'):
+
+            level += 1
+
+        else:
+
+            print('Thanks for playing the game!!!')
+
+            print('Your score is {}'.format(score))
+
+            break
+
+       
