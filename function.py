@@ -10,24 +10,24 @@
 #     print("my name is :",x)
 # name(y)
 
-def multiply(x,y):
-    print('multiplication',x * y)
+# def multiply(x,y):
+#     print('multiplication',x * y)
 
-def add(x,y):
-    print('Addition',x + y)
+# def add(x,y):
+#     print('Addition',x + y)
 
-def subtract(x,y):
-    print('subtract',x - y)
+# def subtract(x,y):
+#     print('subtract',x - y)
     
-num1 = 2
-num2 = 5
+# num1 = 2
+# num2 = 5
 
-def calculate():
-    multiply(num1, num2)
-    add(num1,num2)
-    subtract(num1,num2)
+# def calculate():
+#     multiply(num1, num2)
+#     add(num1,num2)
+#     subtract(num1,num2)
     
-calculate()
+# calculate()
 
 
 
