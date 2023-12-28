@@ -47,7 +47,7 @@
 #         print(i)
 
 
-n = input('enter a string ')
-for i in n:
-    if (i.isdigit()):
-        print(i)
+# n = input('enter a string ')
+# for i in n:
+#     if (i.isdigit()):
+#         print(i)

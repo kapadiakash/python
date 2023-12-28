@@ -18,12 +18,4 @@
 # else:
 #     print(number, "is not an Armstrong number.")
 
-def factorial(n):
-    if(n == 0 or n == 1):
-        return 1
-    else:
-        return n * factorial(n-1)
-    
-a = 5
-b = factorial(a)
-print(b)
+

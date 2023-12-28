@@ -27,7 +27,9 @@
 
 
 # def sum_of_digit(n):
-#     return sum(int (digit) for digit in str(n))
+
+    # return sum(int (digit) for digit in str(n))
+
 # n = input('inter a string ')
 # b = sum_of_digit(n)
 # print(b)
@@ -88,8 +90,8 @@
 # b = sum_of_digit(n)
 # print(b)
 
-def sum_of_digit(n):
-    return sum(int(digit) for digit in str(n))
-n = input('enter a string ')
-b = sum_of_digit(n)
-print(b)
+# def sum_of_digit(n):
+#     return sum(int(digit) for digit in str(n))
+# n = input('enter a string ')
+# b = sum_of_digit(n)
+# print(b)

@@ -14,3 +14,8 @@ if is_palidrome(test_string):
     print('is a palidrom')
 else:
     print('is not a polidram')
+    
+    
+    
+    
+    
