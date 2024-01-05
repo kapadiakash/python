@@ -92,6 +92,19 @@
 #     print('the average is ',(a+b)/2)
 # average(4,6)
 
-def average(a,b=1):
-    print('the average is ', (a+b)/2)
-average(a=4,b=2)
+# def average(a,b=1):
+#     print('the average is ', (a+b)/2)
+# average(a=4,b=2)
+
+
+# def Prime (n):
+#     for i in range(2,n):
+#         if n % i == 0:
+#             print("not prime")
+#             break
+#         else:
+#             print("prime number")
+#             break
+# n = int(input("Enter a number: "))
+# Prime(n)
+
