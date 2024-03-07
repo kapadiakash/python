@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('Background\ image.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color :#fff;
+    font-size: 20px;
+    transition: 1s;
+}
+.navbar ul li a:hover{
+    background-color: rgb(252, 20, 140);
+}
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.search input{
+    padding: 20px;
+    width: 500px;
+    height: 2px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 28%;
+}
+
+.submit button {
+    padding: 17px 40px;
+    color: #fff;
+    background-color: rgb(252, 20, 140);
+    border-radius: 50px;
+}
+
+.all-contact{
+    flex: 1;
+    margin-right: 20px;
+    width: 300px;
+    color:rgb(179, 139, 87) ;
+    padding-left: 80%;
+    margin-bottom: 200px;
+}
+.contact-details{
+    margin-top: 23%;
+    color: rgb(120, 111, 111);
+}

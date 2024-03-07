@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Payment Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.container h1{
+    color: #07bef5;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+  
+
+}
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color :#f38405;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+.navbar ul li a:hover{
+    background-color: rgb(231, 228, 225);
+    
+}
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('Background image.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+        
+
+    #forget{
+        text-align: right;
+    }
+    
+
+    fieldset{
+    background-color: aliceblue;
+    width: 50px;
+    border-radius: 5px;
+    align-items: center;
+    
+            
+            
+    }
+
+    .name{
+    align:left;
+    border-radius: 10px;
+    height: 35px;
+    width: 300PX;
+    
+    }
+   
+
+
+#login{
+    height: 20px;
+    
+        width: 100px;
+        color: rgb(37, 11, 234);
+        background-color: red;
+        border-radius: 100px;
+        height: 50px;
+        }
+
+#login_head{
+    color:#5ff414 ;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1> AKASH <br>BIKES</h1>
+        <div class="navbar">
+            <ul>
+              <li><a href="http://127.0.0.1:5501/index.html">HOME</a></li>
+              <li><a href="http://127.0.0.1:5501/html%20files/BIKES.html">BIKES</a></li>
+              <li><a href="http://127.0.0.1:5501/html%20files/ABOUT.html">ABOUT</a></li>
+              <li><a href="http://127.0.0.1:5501/html%20files/SIGN%20IN.html">SIGN IN </a></li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
+   <center>
+<fieldset>
+    <form action="/submit_payment" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required class="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required class="name">
+
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" maxlength="16" required class="name">
+
+        <label for="expiryDate">Expiry Date (MM/YY):</label>
+        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" maxlength="5" required class="name">
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" maxlength="3" required class="name">
+
+        <button type="submit" class="submit">Make Payment</button>
+    </form>
+</fieldset>
+</center>
+</body>
+</html>

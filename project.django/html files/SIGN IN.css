@@ -1,0 +1,188 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.container h1{
+    color: #07bef5;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+  
+
+}
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color :#f38405;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+.navbar ul li a:hover{
+    background-color: rgb(231, 228, 225);
+    
+}
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('Background image.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+        
+    
+    #SHET{
+        width: 300PX;
+        align: left;
+    }
+    #forget{
+        text-align: right;
+    }
+    #botton{
+        width: 100px;
+        color: rgb(37, 11, 234);
+        background-color: red;
+        border-radius: 100px;
+        height: 30px;
+        }
+        fieldset{
+            background-color: aliceblue;
+            width: 50px;
+            border-radius: 5px;
+            
+            
+            }
+
+            #SHET{
+                align:left;
+                border-radius: 10px;
+                height: 35px;
+            }
+.username{
+    width: 10px;
+}
+.login{
+    height: 20px;
+}
+.login_head{
+    color:#5ff414 ;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.container h1{
+    color: #07bef5;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+  
+
+}
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color :#f38405;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+.navbar ul li a:hover{
+    background-color: rgb(231, 228, 225);
+    
+}
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('Background image.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+        
+
+    #forget{
+        text-align: right;
+    }
+    #login{
+        width: 100px;
+        color: rgb(37, 11, 234);
+        background-color: red;
+        border-radius: 100px;
+        height: 50px;
+        }
+
+    fieldset{
+    background-color: aliceblue;
+    width: 50px;
+    border-radius: 5px;
+            
+            
+    }
+
+.name{
+    border-radius: 10px;
+    height: 35px;
+    width: 300PX;
+    
+}
+   
+
+
+#login{
+    height: 20px;
+}
+#login_head{
+    color:#5ff414 ;
+}
